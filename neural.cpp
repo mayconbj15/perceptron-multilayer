@@ -168,7 +168,7 @@ vector <float> dot (const vector <float>& m1, const vector <float>& m2, const in
     
     vector <float> output (m1_rows*m2_columns);
     
-	#pragma omp parallel for 
+	#pragma omp parallel for num_threads(8)
     for( int row = 0; row < m1_rows; ++row ) {
         for( int col = 0; col < m2_columns; ++col ) {
             output[ row * m2_columns + col ] = 0.f;
