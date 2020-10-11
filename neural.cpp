@@ -1,10 +1,66 @@
-//
-//  main.cpp
-//  mlperceptron
-//
-//  Created by Sergei Bugrov on 7/1/17.
-//  Copyright © 2017 Sergei Bugrov. All rights reserved.
-//
+/**
+
+	Tempos usando 2 neurônios 
+	No Readme têm tempos usando outros valores de neurônios 
+	
+	Tempo sequencial
+	real    0m8.269s
+	user    0m7.813s
+	sys     0m0.452s
+
+	Tempo paralelo com 1 thread
+
+	real    0m9.163s
+	user    0m8.716s
+	sys     0m0.440s
+
+	Tempo paralelo com 1 thread vetorizado
+
+	real    0m2.002s
+	user    0m1.553s
+	sys     0m0.442s
+
+	Tempo paralelo com 2 thread
+
+	real    0m7.458s
+	user    0m10.210s
+	sys     0m0.640s
+
+	real    0m6.015s
+	user    0m8.844s
+	sys     0m0.429s
+
+	Tempo paralelo com 2 thread vetorizado
+
+	real    0m1.868s
+	user    0m1.816s
+	sys     0m0.454s
+
+	Tempo paralelo com 4 thread 
+
+	real    0m4.496s
+	user    0m9.130s
+	sys     0m0.527s
+
+	Tempo paralelo com 4 thread vetorizado
+
+	real    0m1.739s
+	user    0m2.057s
+	sys     0m0.466s
+
+	Tempo paralelo com 8 threads 
+
+	real    0m4.532s
+	user    0m8.936s
+	sys     0m0.421s
+
+	Tempo paralelo com 8 threads vetorizado
+
+	real    0m1.739s
+	user    0m2.057s
+	sys     0m0.466s
+
+**/
 
 #include <string>
 #include <iostream>
