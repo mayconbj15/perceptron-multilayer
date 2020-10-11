@@ -2,6 +2,9 @@
 
 Inspired by https://cognitivedemons.wordpress.com/2017/07/06/a-neural-network-in-10-lines-of-c-code/
 
+#### Gerar entrada de dados
+    $g++ generateInput.cpp -o generateInput -std=c++11 && ./generateInput
+    
 #### Compilar e executar
 
     $ g++ neural.cpp -o neural -fopenmp -std=c++11 && time ./neural
