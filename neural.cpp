@@ -1,65 +1,52 @@
 /**
-
-	Tempos usando 2 neurônios 
-	No Readme têm tempos usando outros valores de neurônios 
+	Tempos para 1 neurônio
 	
-	Tempo sequencial
-	real    0m8.269s
-	user    0m7.813s
-	sys     0m0.452s
-
-	Tempo paralelo com 1 thread
-
-	real    0m9.163s
-	user    0m8.716s
-	sys     0m0.440s
-
-	Tempo paralelo com 1 thread vetorizado
-
-	real    0m2.002s
-	user    0m1.553s
-	sys     0m0.442s
-
-	Tempo paralelo com 2 thread
-
-	real    0m7.458s
-	user    0m10.210s
-	sys     0m0.640s
-
-	real    0m6.015s
-	user    0m8.844s
-	sys     0m0.429s
-
-	Tempo paralelo com 2 thread vetorizado
-
-	real    0m1.868s
-	user    0m1.816s
-	sys     0m0.454s
-
-	Tempo paralelo com 4 thread 
-
-	real    0m4.496s
-	user    0m9.130s
-	sys     0m0.527s
-
-	Tempo paralelo com 4 thread vetorizado
-
-	real    0m1.739s
-	user    0m2.057s
-	sys     0m0.466s
-
-	Tempo paralelo com 8 threads 
-
-	real    0m4.532s
-	user    0m8.936s
-	sys     0m0.421s
-
-	Tempo paralelo com 8 threads vetorizado
-
-	real    0m1.739s
-	user    0m2.057s
-	sys     0m0.466s
-
+	Tempo sequencial: 0m8.067s
+	Tempo paralelo 1 Thread: 0m8.687s
+	Tempo paralelo 2 Threads: 0m4.417s
+	Tempo paralelo 4 Threads: 0m3.699s
+	Tempo paralelo 8 Threads: 0m3.722s
+	Tempo paralelo 1 Thread vetorizado: 0m1.728s
+	Tempo paralelo 2 Thread vetorizado: 0m2.402s
+	Tempo paralelo 4 Thread vetorizado: 0m1.869s
+	Tempo paralelo 8 Thread vetorizado: 0m1.748s
+	
+	Tempos para 2 neurônios
+	
+	Tempo sequencial: 0m8.269s
+	Tempo paralelo 1 Thread: 0m9.163s
+	Tempo paralelo 2 Threads: 0m6.015s
+	Tempo paralelo 4 Threads: 0m4.496s
+	Tempo paralelo 8 Threads: 0m4.532s
+	Tempo paralelo 1 Thread vetorizado: 0m2.002s
+	Tempo paralelo 2 Thread vetorizado: 0m1.868s
+	Tempo paralelo 4 Thread vetorizado: 0m1.739s
+	Tempo paralelo 8 Thread vetorizado: 0m1.739s
+	
+	Tempos para 4 neurônios
+	
+	Tempo sequencial: 0m18.171s
+	Tempo paralelo 1 Thread: 0m15.432s
+	Tempo paralelo 2 Threads: 0m11.634s
+	Tempo paralelo 4 Threads: 0m6.262s
+	Tempo paralelo 8 Threads: 0m6.614s
+	Tempo paralelo 1 Thread vetorizado: 0m2.443s
+	Tempo paralelo 2 Thread vetorizado: 0m2.239s
+	Tempo paralelo 4 Thread vetorizado: 0m1.912s
+	Tempo paralelo 8 Thread vetorizado: 0m2.023s
+	
+	Tempos para 8 neurônios
+	
+	Tempo sequencial: 0m24.796s
+	Tempo paralelo 1 Thread: 0m28.154s
+	Tempo paralelo 2 Threads: 0m15.542s
+	Tempo paralelo 4 Threads: 0m9.745s
+	Tempo paralelo 8 Threads: 0m9.992s
+	Tempo paralelo 1 Thread vetorizado: 0m3.778s
+	Tempo paralelo 2 Thread vetorizado: 0m2.990s
+	Tempo paralelo 4 Thread vetorizado: 0m2.592s
+	Tempo paralelo 8 Thread vetorizado: 0m2.704s
+	
 **/
 
 #include <string>
