@@ -18,7 +18,7 @@ Está implementação da rede neural leva muito proveito também da vetorizaçã
 
 Abaixo segue os valores de execução com a paralelização da camada oculta, com e sem vetorização, para valores de 1, 2, 4 e 8 threads. Obs: valores obtidos executando no servidor parcode do ICEI da PUC Minas.
 
-**Tempos paralelos por número de threads com 1 neurônio **
+**Tempos paralelos por número de threads com 1 neurônio**
 
 |                     | 1 thread  | 2 threads | 4 threads | 8 threads |
 | ------------------- | --------- | --------- | --------- | --------- |
@@ -26,7 +26,7 @@ Abaixo segue os valores de execução com a paralelização da camada oculta, co
 | Paralelo            | 0m8.687s  | 0m4.417s  | 0m3.699s  | 0m3.722s  |
 | Paralelo vetorizado | 0m1.728s  | 0m2.402s  | 0m1.869s  | 0m1.748s  |
 
-**Tempos paralelos por número de threads com 2 neurônios **
+**Tempos paralelos por número de threads com 2 neurônios**
 
 |                     | 1 thread  | 2 threads | 4 threads | 8 threads |
 | ------------------- | --------- | --------- | --------- | --------- |
@@ -34,7 +34,7 @@ Abaixo segue os valores de execução com a paralelização da camada oculta, co
 | Paralelo            | 0m9.163s  | 0m6.015s  | 0m4.496s  | 0m4.532s  |
 | Paralelo vetorizado | 0m2.002s  | 0m1.868s  | 0m1.739s  | 0m1.739s  |
 
-**Tempos paralelos por número de threads com 4 neurônios **
+**Tempos paralelos por número de threads com 4 neurônios**
 
 |                     | 1 thread  | 2 threads | 4 threads | 8 threads |
 | ------------------- | --------- | --------- | --------- | --------- |
@@ -42,7 +42,7 @@ Abaixo segue os valores de execução com a paralelização da camada oculta, co
 | Paralelo            | 0m15.432s | 0m11.634s | 0m6.262s  | 0m6.614s  |
 | Paralelo vetorizado | 0m2.443s  | 0m2.239s  | 0m1.912s  | 0m2.023s  |
 
-**Tempos paralelos por número de threads com 8 neurônios **
+**Tempos paralelos por número de threads com 8 neurônios**
 
 |                     | 1 thread  | 2 threads | 4 threads | 8 threads |
 | ------------------- | --------- | --------- | --------- | --------- |
