@@ -18,7 +18,15 @@ Está implementação da rede neural leva muito proveito também da vetorizaçã
 
 Abaixo segue os valores de execução com a paralelização da camada oculta, com e sem vetorização, para valores de 1, 2, 4 e 8 threads. Obs: valores obtidos executando no servidor parcode do ICEI da PUC Minas.
 
-**Tempos paralelos por número de threads**
+**Tempos paralelos por número de threads com 2 neurônios **
+
+|                     | 1 thread  | 2 threads | 4 threads | 8 threads |
+| ------------------- | --------- | --------- | --------- | --------- |
+| Tempo sequencial    | 0m8.269s  | -         | -         | -         |
+| Paralelo            | 0m9.163s  | 0m6.015s  | 0m4.496s  | 0m4.532s  |
+| Paralelo vetorizado | 0m2.002s  | 0m1.868s  | 0m1.739s  | 0m1.739s  |
+
+**Tempos paralelos por número de threads com 4 neurônios **
 
 |                     | 1 thread  | 2 threads | 4 threads | 8 threads |
 | ------------------- | --------- | --------- | --------- | --------- |
